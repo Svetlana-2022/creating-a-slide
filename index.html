@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="./images/logo.svg" alt="логотип">
+        <div class="header__container">
+            <div class="header__container-more">
+                <p class="header__text">Режим работы: </p>
+                <div>
+                    <p class="header__text">пн-вс 10:00-21:00</p>  
+                    <p class="header__text">Лента 08:00-22:00</p> 
+                </div>
+            </div>
+            <div class="header__text">Контакты</div>
+            <div class="header__text">Карта ТЦ</div>
+            <form class="form" name="text">
+                <input type="text" class="form__input" placeholder="Найти магазин" name="name">
+                <button type="button" class="form__button"></button>
+            </form>
+            <button type="button" class="header__burger"></button>
+        </div>
+    </header>
+    <main class="content">
+        <section class="rent">
+            <div class="rent__caption">
+                <p class="rent__caption-text">Главная</p>
+                <div class="rent__caption-img"></div> 
+                <p class="rent__caption-text">Аренда</p>
+            </div>
+            <div class="rent__content">
+                <img class="rent__image" src="./images/rent-image.jpg" alt="открытие торгового центра">
+                <div class="rent__container">
+                    <h1 class="rent__title">Аренда в ТУЦ “Сарафан”</h1>
+                    <p class="rent__description">
+                        Торговый центр «Сарафан», расположенный по адресу: г. Тула, ул. Путейская, д.5 (Площадь 
+                        Московского вокзала), предлагает помещения в аренду от собственника от 25 до 1000 кв. м.
+                    </p>
+                    <div class="rent__typographys">
+                        <p class="rent__typography-text">Скачать презентацию</p>
+                        <img class="rent__typography-img" src="./images/typography.svg" alt="стрелка">
+                    </div>
+                    <h2 class="rent__subtitle">Преимущества аренды в нашем торговом центре:</h2>
+                    <ul class="rent__container-description">
+                        <li>
+                            <p class="rent__description">
+                                ТЦ «Сарафан» находится в 5 минутах езды от центра города на площади Московского 
+                                вокзала на одной из самых оживленных улиц города – Красноармейский проспект.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="rent__description">
+                                Рядом жилой массив, пересечение основных транспортных и пешеходных потоков –
+                                конечная остановка общественного транспорта, железнодорожный вокзал.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="rent__description">
+                                На территории ТЦ «Сарафан» есть бесплатная парковка для клиентов, более 500 
+                                машиномест, удобный подъезд.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="rent__description">
+                                Ежедневно наш ТЦ посещает порядка 10 000 тысяч человек различной целевой аудитории
+                            </p>
+                        </li>
+                        <li>
+                            <p class="rent__description">
+                                Демократичные цены за аренду площади
+                            </p>
+                        </li>
+                        <li>
+                            <p class="rent__description">
+                                У нас Вы можете арендовать площадь под магазины белья, одежды и обуви, салоны, точки 
+                                общепита и др.
+                            </p>
+                        </li>
+                    </ul>
+                    <p class="rent__description">
+                        Открытие торговой точки в одном из оживленных мест города обеспечит доходность, 
+                        развитие и процветание Вашего бизнеса.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="lead">
+            <h1 class="lead__title">Более 130 бутиков и магазинов уже арендуют у нас помещения</h1>
+            <div class="lead__tenants">
+                <!-- блок слайдера -->
+                <div class="lead__tenants-slider">
+                    <!--  слайдер -->
+                    <div class="lead__slider-imgs">
+                        <!-- картинки слайдера -->
+                        <div class="lead__slider-line">
+                            <img class="lead__slider-img" src="./images/familia_logo.jpg" alt="логотип-фамилия">
+                            <img class="lead__slider-img" src="./images/letual_logo.jpg" alt="логотип-летуаль">
+                            <img class="lead__slider-img" src="./images/lenta_logo.jpg" alt="логотип-лента">
+                            <img class="lead__slider-img" src="./images/familia_logo.jpg" alt="логотип-фамилия">
+                            <img class="lead__slider-img" src="./images/letual_logo.jpg" alt="логотип-летуаль">
+                        </div>
+                    </div>
+                    <!-- Кнопки-стрелочки по краям, в середине точки индикаторы-->
+                    <div class="lead__slider-btn">
+                        <img class="lead__slider-btn_prev" src="./images/left-slider.svg" alt="левая стрелка">
+                        <img class="lead__slider-dot lead__slider-btn_prev-dot" src="./images/dot-slider.svg" alt="левая точка">
+                        <img class="lead__slider-dot lead__slider-btn_center-dot" src="./images/dot-slider.svg" alt="средняя точка">
+                        <img class="lead__slider-dot lead__slider-btn_next-dot" src="./images/dot-slider.svg" alt="правая точка">
+                        <img class="lead__slider-btn_next" src="./images/right-slider.svg" alt="правая стрелка">
+                    </div>
+                </div>
+                <!--  -->
+                <ul class="lead__tenants-info">
+                    <li>
+                        <p class="lead__tenant-info">
+                            Якорные арендаторы - Лента, Детский Мир, Технопарк, Модис, Familia, Читай город, Тутанхамон, Л'Этуаль
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lead__tenant-info">
+                            Бренды - EWA, Artigli, Gerzedo, Goergo, Du monde, Petek, Neri Karra, Ledy Collection, Paolo Conte, P'Cont, VINZER, 
+                            Ace, Tonnelli, Milavitsa, и др.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lead__tenant-info">
+                            Магазины спортивной одежды и инвентаря: Адреналин, Спорт Лайн
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lead__tenant-info">
+                            Зона фудкорта - Burger King, Империя вкуса, Про Кофий, Добрая сдоба
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lead__tenant-info">
+                            Салоны связи: Билайн, Мегафон, YOTA, Связной, Теле2
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lead__tenant-info">
+                            Зоосад, аптека «Здесь аптека», «Арт-оптика», Fresh Оптика, ковры, салоны штор, текстиль Missis Hatson и Home 
+                            TEX, салон Арт-Самовар, посуда, подарки, картины, сувениры и другие.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="reviews">
+            <ul class="reviews__items">
+                <li class="reviews__item">
+                    <p class="reviews__subtitle">Общая площадь торгового центра</p>
+                    <p class="reviews__data">25 816 м2</p>
+                </li>
+                <li class="reviews__item">
+                    <p class="reviews__subtitle">Площадь, сдаваемая в аренду</p>
+                    <p class="reviews__data">16 675 м2</p>
+                </li>
+                <li class="reviews__item">
+                    <p class="reviews__subtitle">Парковка (машиномест)</p>
+                    <p class="reviews__data">500</p>
+                </li>
+                <li class="reviews__item">
+                    <p class="reviews__subtitle">Посещаемость (в неделю)</p>
+                    <p class="reviews__data">100 000 чел</p>
+                </li>
+            </ul>
+            <div class="reviews__photos">
+                <img class="reviews__photo-first" src="./images/photo-first.jpg" alt="витрины магазинов">
+                <img class="reviews__photo-second" src="./images/photo-second.jpg" alt="вид торгового центра">
+            </div>
+        </section>
+        <section class="photos">
+            <img class="photo-third" src="./images/photo-third.jpg" alt="вид витрин">
+            <img class="photo-fourth" src="./images/photo-fourth.jpg" alt="вид витрин">
+            <img class="photo-fifth" src="./images/photo-fifth.jpg" alt="вид витрин">
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="./images/logo.svg" alt="логотип">
+        <img class="footer__nav" src="./images/footer-nav.svg" alt="навигация">
+        <div class="footer__container">
+            <form class="form" name="text">
+                <input type="text" class="form__input" placeholder="Найти магазин" name="name">
+                <button type="button" class="form__button"></button>
+            </form>
+            <ul class="footer__contacts">
+                <li class="footer__contact-li"><img class="footer__contact" src="./images/telegram.svg" alt="телеграмм"></li>
+                <li class="footer__contact-li"><img class="footer__contact" src="./images/vk.svg" alt="в контакте"></li>
+            </ul>
+        </div>
+        <img class="footer__address" src="./images/footer-address.svg" alt="адрес">
+    </footer>
+    <div class="popup"> 
+        <div class="popup__container">
+            <header class="header">
+                <img class="header__logo" src="./images/logo.svg" alt="логотип">
+                <div class="header__container">
+                    <div class="header__container-more">
+                        <p class="header__text">Режим работы: </p>
+                        <div>
+                            <p class="header__text">пн-вс 10:00-21:00</p>  
+                            <p class="header__text">Лента 08:00-22:00</p> 
+                        </div>
+                    </div>
+                    <div class="header__text">Контакты</div>
+                    <div class="header__text">Карта ТЦ</div>
+                    <form class="form" name="text">
+                        <input type="text" class="form__input" placeholder="Найти магазин" name="name">
+                        <button type="button" class="form__button"></button>
+                    </form>
+                    <img type="button" src="./images/close-icon.svg" alt="крестик" class="header__button">
+                </div>
+            </header>
+            <div class="popup__navs">
+                <nav class="popup__menu popup__menu_content_info">
+                    <ul class="popup__menu-links">
+                        <li><a href="#" class="popup__menu-link">О нас</a></li>
+                        <li class="popup__menu-li"><a href="#" class="popup__menu-link">События</a></li>
+                        <li class="popup__menu-li"><a href="#" class="popup__menu-link">Галерея</a></li>
+                        <li class="popup__menu-li"><a href="#" class="popup__menu-link">Аренда</a></li>
+                        <li class="popup__menu-li"><a href="#" class="popup__menu-link">Карта ТЦ</a></li>
+                        <li class="popup__menu-li"><a href="#" class="popup__menu-link">Контакты</a></li>
+                        <li class="popup__menu-li"><a href="#" class="popup__menu-link">Вакансии</a></li>
+                        <li class="popup__menu-li"><a href="#" class="popup__menu-link">Тендеры</a></li>
+                    </ul>
+                </nav>
+                <nav class="popup__menu popup__menu_content_stores">
+                    <h3 class="popup__menu-heading">Магазины</h3>
+                    <img class="popup__menu-link" src="./images/menu-stores1.svg" alt="Магазины">
+                    <img class="popup__menu-link2" src="./images/menu-stores2.svg" alt="Магазины">
+                </nav>
+                <nav class="popup__menu popup__menu_content_restaurants">
+                    <h3 class="popup__menu-heading">Кафе и рестораны</h3>
+                    <img class="popup__menu-link" src="./images/menu-restaurants.svg" alt="Кафе и рестораны">
+                </nav>
+                <nav class="popup__menu popup__menu_content_services">
+                    <h3 class="popup__menu-heading">Услуги и сервисы</h3>
+                    <img class="popup__menu-link" src="./images/menu-services.svg" alt="Услуги и сервисы">
+                </nav>
+                <nav class="popup__menu popup__menu_content_entertainmen">
+                    <h3 class="popup__menu-heading">Развлечения</h3>
+                    <img class="popup__menu-link" src="./images/menu-entertainmen.svg" alt="Развлечения">
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
